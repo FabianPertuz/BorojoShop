@@ -1,2 +1,2 @@
 db.Borojo.find({stock: {$gt: 20}})
-db.Clients.find({compras: {$ne: ""}})
+db.Clients.find({compras: {$in: [""]}})
