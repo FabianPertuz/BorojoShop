@@ -1,0 +1,2 @@
+db.Borojo.insertOne({nombre:"Chocolatina de borojó",catergoria:"snack",precio:4000,stock:35,tags:["dulce", "energía"]})
+db.Clients.insertOne({nombre:"Mario Mendoza",email:"mario@email.com",compras:"",preferencias:["energetico","natural"]})
